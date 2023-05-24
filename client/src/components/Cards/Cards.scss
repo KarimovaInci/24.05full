@@ -1,0 +1,46 @@
+.cards {
+    margin-top: 120px;
+    width: 100%;
+    padding: 0px 250px;
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        margin: 40px 0px;
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        justify-content: start;
+        align-items: center;
+        padding: 0px;
+    }
+
+    &__sec {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        &__card{
+            width: 23%;
+            height: 500px;
+            margin-bottom: 30px;
+            &__img{
+                width: 100%;
+                height: 400px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .name{
+                color: grey;
+                font-size: 20px;
+            }
+            
+        }
+
+    }
+}

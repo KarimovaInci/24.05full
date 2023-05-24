@@ -1,0 +1,47 @@
+.section2 {
+    margin-top: 100px;
+    width: 100%;
+    padding: 0px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__card {
+        width: 30%;
+        height: 300px;
+        border: 1px solid rgba(0, 0, 0, 0.178);
+        background-image: url("https://preview.colorlib.com/theme/cozastore/images/banner-01.jpg.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+
+        .boxshadow {
+            padding: 30px 40px;
+            transition: 0.3s linear;
+        }
+
+        &:hover .boxshadow {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(113, 128, 224, 0.76);
+            cursor: pointer;
+        }
+
+        h3 {
+            font-weight: bold;
+        }
+
+        p {
+            color: rgba(0, 0, 0, 0.762);
+        }
+    }
+
+    .card2 {
+        background-image: url("https://preview.colorlib.com/theme/cozastore/images/banner-02.jpg.webp");
+    }
+
+    .card3 {
+        background-image: url("https://preview.colorlib.com/theme/cozastore/images/banner-03.jpg.webp");
+    }
+}
